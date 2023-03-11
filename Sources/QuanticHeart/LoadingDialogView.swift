@@ -38,12 +38,3 @@ struct LoadingDialogView: View {
         }
     }
 }
-
-@available(iOS 13.0, *)
-struct LoadingDialogView_Previews: PreviewProvider {
-    static var previews: some View {
-        ZStack{
-            LoadingDialogView(status: false)
-        }
-    }
-}

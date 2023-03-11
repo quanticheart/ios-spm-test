@@ -35,11 +35,3 @@ struct LoadingView<Content: View>: View {
     }
 }
 
-@available(iOS 13.0.0, *)
-struct LoadingView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoadingView(status: false){
-            return Text("Carregou")
-        }
-    }
-}

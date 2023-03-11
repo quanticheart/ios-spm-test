@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-spm-test",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/quanticheart/ios-spm-test",
+      "state" : {
+        "revision" : "e7971057aaf63c51dd6ae2b579e104b31873e256",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
