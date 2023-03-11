@@ -11,7 +11,7 @@ import SwiftUI
 struct LoadingDialogView: View {
     var status = true
     
-    init(status:Bool){
+    public init(status:Bool){
         self.status = status
     }
     

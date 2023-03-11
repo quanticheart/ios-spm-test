@@ -12,7 +12,7 @@ struct LoadingView<Content: View>: View {
     var status = true
     var view : () -> Content
     
-    init(status:Bool,@ViewBuilder view: @escaping () -> Content){
+    public init(status:Bool,@ViewBuilder view: @escaping () -> Content){
         self.status = status
         self.view = view
     }
