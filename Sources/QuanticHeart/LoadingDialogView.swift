@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct LoadingDialogView: View {
     var status = true
     
@@ -38,10 +39,11 @@ struct LoadingDialogView: View {
     }
 }
 
-struct LoadingView_Previews: PreviewProvider {
+@available(iOS 13.0, *)
+struct LoadingDialogView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack{
-            LoadingView(status: false)
+            LoadingDialogView(status: false)
         }
     }
 }
