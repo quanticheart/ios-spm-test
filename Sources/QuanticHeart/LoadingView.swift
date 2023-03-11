@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 13.0, *)
-struct LoadingView<Content: View>: View {
+public struct LoadingView<Content: View>: View {
     var status = true
     var view : () -> Content
     
@@ -17,7 +17,7 @@ struct LoadingView<Content: View>: View {
         self.view = view
     }
     
-    var body: some View {
+    public var body: some View {
         if(status) {
             if #available(iOS 14, macOS 10.15, *) {
                 VStack {

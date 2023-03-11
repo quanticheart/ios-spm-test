@@ -8,14 +8,14 @@
 import SwiftUI
 
 @available(iOS 13.0, *)
-struct LoadingDialogView: View {
+public struct LoadingDialogView: View {
     var status = true
     
     public init(status:Bool){
         self.status = status
     }
     
-    var body: some View {
+    public var body: some View {
         if(status) {
             if #available(iOS 14, macOS 10.15, *) {
                 VStack {
